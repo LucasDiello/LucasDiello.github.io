@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(39, 76, 119);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.perfil-img{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 0%;
+    /* background-color: aqua; */
+}
+
+.imagem-perfil{
+    flex: 10%;
+}
+
+.imagem-perfil img{
+    border-radius: 150px;
+    /* border: 2px solid white;; */
+}
+
+.description{
+    /* border: 2px solid rgb(235, 226, 226); */
+    padding-left: 40px;
+    flex: 90%;
+}
+
+.description h2 {
+    font-size: 30px;
+}
+
+.description p {
+    font-size: 15px;
+}
+
+.habilities li{
+    list-style: none;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.habilities{
+    margin-bottom: 10px;
+}
+
+.site a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 35px 7px;
+    border-radius: 17px;
+    border: 1px solid white;
+}
+
